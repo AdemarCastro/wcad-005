@@ -1,13 +1,13 @@
 # Projeto Web Academy - ICOMP UFAM
 
-<img src="/src/assets/imgs/webacademy.png" width="60%">
-<img src="/src/assets/imgs/icomp.png" width="60%">
-<img src="/src/assets/imgs/ufam.png" width="60%">
+<img src="/src/assets/imgs/webacademy.png" width="30%"> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/src/assets/imgs/icomp.png" width="30%"> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/src/assets/imgs/ufam.png" width="20%">
 
 ## Disciplina: Versionamento de Código com Git e GitHub
 
-<img src="/src/assets/imgs/git.png" width="60%">
-<img src="/src/assets/imgs/github-branco.png" width="60%">
+<img src="/src/assets/imgs/github-branco.png" width="15%">
+<img src="/src/assets/imgs/git.png" width="20%">
 
 ## Validador de Entradas
 
