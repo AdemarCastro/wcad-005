@@ -9,6 +9,12 @@ function validar_email(email) {
   return emailPattern.test(email);
 }
 
+// MÉTODO DE VALIDAÇÃO DO CEP
+function validar_cep(cep) {
+  const cepPattern = /^\d{5}-?\d{3}$/;
+  return cepPattern.test(cep);
+}
+
 // TESTS DOS MÉTODOS DE VALIDAÇÃO
 
 // EMAIL
