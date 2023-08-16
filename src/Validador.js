@@ -9,3 +9,18 @@ function validar_email(email) {
   return emailPattern.test(email);
 }
 
+// TESTS DOS MÉTODOS DE VALIDAÇÃO
+
+// EMAIL
+
+// POSITIVE
+let testEmailPositive = "ademar.castro@outlook.com";
+console.log(`------------- TEST EMAIL : POSITIVE -------------`);
+console.log(`Email utilizado no validador: ${testEmailPositive}`);
+console.log(`Resultado: ${validar_email(testEmailPositive)}\n`);
+
+// NEGATIVE
+let testEmailNegative = "ademar.castrooutlookcom"; // Não possui o "@" e nem o "." antes do "com"
+console.log(`------------- TEST EMAIL : NEGATIVE -------------`);
+console.log(`Email utilizado no validador: ${testEmailNegative}`);
+console.log(`Resultado: ${validar_email(testEmailNegative)}\n`);
