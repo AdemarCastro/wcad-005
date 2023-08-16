@@ -50,3 +50,18 @@ let testCEPNegative = "69ASD55O"; // Possui letras no CEP (É opcional ter o "-"
 console.log(`------------- TEST CEP : NEGATIVE -------------`);
 console.log(`Email utilizado no validador: ${testCEPNegative}`);
 console.log(`Resultado: ${validar_cep(testCEPNegative)}\n`);
+
+// CPF
+
+// POSITIVE
+let testCPFPositive = "022.455.652-44"; // Validador não verifica se o CPF existe, apenas se está no formato pré-definido (XXX.XXX.XXX-XX)
+console.log(`------------- TEST CPF : POSITIVE -------------`);
+console.log(`Email utilizado no validador: ${testCPFPositive}`);
+console.log(`Resultado: ${validar_cpf(testCPFPositive)}\n`);
+
+// NEGATIVE
+let testCPFNegative = "02245565244"; // Não está no padrão XXX.XXX.XXX-XX
+console.log(`------------- TEST CPF : NEGATIVE -------------`);
+console.log(`Email utilizado no validador: ${testCPFNegative}`);
+console.log(`Resultado: ${validar_cpf(testCPFNegative)}\n`);
+
