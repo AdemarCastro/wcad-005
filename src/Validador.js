@@ -71,3 +71,20 @@ console.log(`------------- TEST CPF : NEGATIVE -------------`);
 console.log(`Email utilizado no validador: ${testCPFNegative}`);
 console.log(`Resultado: ${validar_cpf(testCPFNegative)}\n`);
 
+// TELEFONE
+
+// POSITIVE
+// Exemplos de Telefones permitidos:
+// +55 (11) 12345-6789
+// +33 (01) 23456-7890
+let testTelefonePositive = "+55 (92) 90000-1111";
+console.log(`------------- TEST TELEFONE : POSITIVE -------------`);
+console.log(`Email utilizado no validador: ${testTelefonePositive}`);
+console.log(`Resultado: ${validar_telefone(testTelefonePositive)}\n`);
+
+// NEGATIVE
+let testTelefoneNegative = "55 92 90000 1111";
+console.log(`------------- TEST TELEFONE : NEGATIVE -------------`);
+console.log(`Email utilizado no validador: ${testTelefoneNegative}`);
+console.log(`Resultado: ${validar_telefone(testTelefoneNegative)}\n`);
+
