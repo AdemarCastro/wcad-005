@@ -21,6 +21,12 @@ function validar_cpf(cpf) {
   return cpfPattern.test(cpf);
 }
 
+// MÉTODO DE VALIDAÇÃO DO TELEFONE
+function validar_telefone(telefone) {
+  const telefonePattern = /^\+\d{2}\s?\(\d{2}\)\s?\d{5}-\d{4}$/;
+  return telefonePattern.test(telefone);
+}
+
 // TESTS DOS MÉTODOS DE VALIDAÇÃO
 
 // EMAIL
