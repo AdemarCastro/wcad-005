@@ -67,3 +67,7 @@ Aqui está o histórico de commits realizados na branch "Validadores":
 6. Commit 6: Adição de testes para validação de CPF.
 7. Commit 7: Implementação da função `validar_telefone`.
 8. Commit 8: Adição de testes para validação de telefone.
+
+# Contato
+- Email: ademar.castro.curriculo@gmail.com
+- X (Twitter): https://twitter.com/AdemarCastro20
