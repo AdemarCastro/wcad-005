@@ -30,3 +30,17 @@ let testEmailNegative = "ademar.castrooutlookcom"; // Não possui o "@" e nem o 
 console.log(`------------- TEST EMAIL : NEGATIVE -------------`);
 console.log(`Email utilizado no validador: ${testEmailNegative}`);
 console.log(`Resultado: ${validar_email(testEmailNegative)}\n`);
+
+// CEP
+
+// POSITIVE
+let testCEPPositive = "69022-550";
+console.log(`------------- TEST CEP : POSITIVE -------------`);
+console.log(`Email utilizado no validador: ${testCEPPositive}`);
+console.log(`Resultado: ${validar_cep(testCEPPositive)}\n`);
+
+// NEGATIVE
+let testCEPNegative = "69ASD55O"; // Possui letras no CEP (É opcional ter o "-")
+console.log(`------------- TEST CEP : NEGATIVE -------------`);
+console.log(`Email utilizado no validador: ${testCEPNegative}`);
+console.log(`Resultado: ${validar_cep(testCEPNegative)}\n`);
