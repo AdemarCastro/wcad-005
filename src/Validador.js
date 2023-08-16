@@ -15,6 +15,12 @@ function validar_cep(cep) {
   return cepPattern.test(cep);
 }
 
+// MÉTODO DE VALIDAÇÃO DO CPF
+function validar_cpf(cpf) {
+  const cpfPattern = /^(\d{3}\.){2}\d{3}-\d{2}$/;
+  return cpfPattern.test(cpf);
+}
+
 // TESTS DOS MÉTODOS DE VALIDAÇÃO
 
 // EMAIL
